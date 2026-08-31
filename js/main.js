@@ -32,7 +32,7 @@
 
   function animate(el) {
     var target = parseInt(el.getAttribute("data-target"), 10) || 0;
-    var duration = 800;
+    var duration = 2200;
     var start = null;
 
     function step(ts) {

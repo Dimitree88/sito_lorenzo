@@ -348,6 +348,30 @@ p {
   font-size: .9rem;
 }
 
+.sedi__intro {
+  margin-bottom: 8px;
+}
+
+.sedi {
+  list-style: disc inside;
+  text-align: left;
+  margin: 0 0 40px;
+  padding: 0;
+}
+
+.sedi li {
+  color: var(--text-mut);
+  padding: 4px 0;
+}
+
+.sedi li::marker {
+  color: var(--blue-500);
+}
+
+.contact-cta {
+  margin-top: 32px;
+}
+
 .contact-list {
   list-style: none;
 }
